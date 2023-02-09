@@ -1,0 +1,384 @@
+body {
+   font-family:AR CHRISTY;
+   background-color:#fef9f8;
+}
+
+
+
+.topNavBar {
+	background-color:#ef9273;
+	border-radius:5px;
+	color:white;
+	width:100%;
+	height:40px;
+	border:none;
+	text-decoration:none;
+	display:flex;
+	justify-content:center;
+	/**background-attachment: fixed; **/
+	position:fixed;
+	/*position:relative;*/
+
+}
+ 
+.homeLink {
+  color:white;
+  background-color:#ef9273;
+  /*font-family:*/
+  /*margin:0px 10px 0px 200px;*/
+  display: inline-block;
+  bottom:20px;
+  text-decoration:none;
+  margin-top:2px;
+  margin-right:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  
+}
+
+.cvLink {
+  color:white;
+  background-color:#ef9273;
+  /*font-family:*/
+  /*margin-left:20px;*/
+  display: inline-block;
+  text-decoration:none;
+  display:flex;
+  margin-top:2px;
+  margin-right:30px;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.theLetterL {
+  color:white;
+  background-color:#ef9273;
+  /*font-family:*/
+  /*margin-left:20px;*/	
+  display: inline-block;
+  text-decoration:none;
+   display:flex;
+  margin-top:1px;
+  margin-right:30px;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.aboutMeLink {
+  color:white;
+  background-color:#ef9273;
+  /*font-family:*/
+  /*margin-left:20px;*/	
+  display: inline-block;
+  text-decoration:none;
+  display:flex;
+  margin-top:2px;
+  margin-right:30px;
+  flex-direction:column;
+  justify-content:center;
+  font-style:bold;
+}
+
+.workLink {
+  color:white;
+  background-color:#ef9273;
+  /*font-family:*/
+  /*margin-left:20px;*/	
+  display: inline-block;
+  text-decoration:none;
+  display:flex;
+  margin-top:2px;
+  margin-right:30px;
+  flex-direction:column;
+  justify-content:center;
+}
+/* Code below for contact button*/
+/*pop-up form CSS code */
+
+#myBtn{
+    color:white;
+    background-color:#ef9273;
+    display:inline-block;
+    text-decoration:none;
+    display:flex;
+    margin-top:2px;
+    margin-right:30px;
+    flex-direction:column;
+    justify-content:center;
+    cursor:pointer;
+    border:none;
+	 font-family:AR CHRISTY;
+	
+}
+
+.form {
+    display:none; /*hidden by default*/
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100;
+    overflow:auto; /*Enable scrolling if needed*/
+    background-color:#fef9f8;
+    background-color:rgba(0,0,0,0,0.4);
+    
+}
+
+.insideTheForm {
+    background-color:#fef9f8;
+    margin:15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:25%;
+	height:25%;
+	box-shadow:0 4px 8px rgba(0,0,0,0.2),0.6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+	 text-align:center;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.formHeader {
+	background-color:#ef9273;
+}
+
+.close {
+    color:#fef9f8;
+    float:right;
+    font-size:14px;
+    font-weight:bold;
+	background-color:#ef9273;
+	padding:10px;
+	margin:10px;
+}
+
+/* need change close a:hover colour */
+.close:hover,
+.close:focus {
+    /*color:#f6d1bf;*/
+	background-color:#fef9f8;
+    color:#ef9273;
+    border:5px 5px #ef9273;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.phone { 
+    color:black;
+    text-decoration:none;
+    text-align:center;
+   }
+   .mailto {
+    color:black;
+    text-decoration:none;
+    text-align:center;
+   }
+
+h3 {
+	color:black;
+}
+
+/* end of CSS pop up form code */
+
+
+.topHeader {
+	margin-left:75px;
+}
+
+
+
+/*back button*/
+.goBackButton {
+	background-color:#ef9273;
+	color:#fef9f8;
+	border:5px 5px 5px 5px #ef9273;
+	border-color:#fef9f8;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 5px;
+	cursor:pointer;
+	margin-left:75px;
+      font-size:large;
+}
+.goBackButton:hover {
+	border: 5px 5px 5px 5px #fef9f8;
+	border-radius:5px;
+	color:#ef9273;
+	background-color:#fef9f8;
+	cursor:pointer;
+      font-size:large;
+}
+/*end of back button CSS styling*/
+
+/*to the top CSS design*/
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  background-color:#f3beb1;
+  color:#808080;
+  cursor: pointer;
+  padding: 4px 4px;
+  border-radius: 5px; 
+  margin-right:75px; 
+  border:#f3beb1;
+  border:5px 5px 5px 5px;
+  border-style:solid;
+}
+
+#topBtn:hover {
+    border:5px 5px 5px 5px;
+	border-style:solid;
+	border-color:#f3beb1;
+    border-radius:5px;
+    color:#ef9273;
+    background-color:#fef9f8;
+}
+/*end of to the top CSS design*/
+
+/*CSS for the approach images and text*/
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left:75px;
+  font-family:san-seriff;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2;}
+.div2 { grid-area: 1 / 2 / 2 / 3;}
+.div3 { grid-area: 1 / 3 / 2 / 4;}
+.div4 { grid-area: 1 / 4 / 4 / 5; }
+.div5 { grid-area: 2 / 1 / 4 / 2; }
+.div6 { grid-area: 2 / 2 / 2 / 3;}
+.div7 { grid-area: 2 / 3 / 3 / 4;}
+.div8 { grid-area: 2 / 4 / 4 / 4;}
+.div9 { grid-area: 3 / 1 / 4 / 2; }
+.div10 { grid-area: 3 / 2 / 3 / 3; }
+.div11 { grid-area: 3 / 3 / 5 / 3; }
+.div12 { grid-area: 3 / 4 / 5 / 4; }
+.div13 { grid-area: 4 / 1 / 4 / 2; }
+.div14 { grid-area: 4 / 2 / 6 / 3; }
+.div15 { grid-area: 4 / 3 / 5 / 4; }
+.div16 { grid-area: 4 / 4 / 4 / 5; }
+.div17 { grid-area: 5 / 1 / 6 / 2; }
+.div18 { grid-area: 5 / 2 / 6 / 3; }
+.div19 { grid-area: 5 / 3 / 6 / 4; }
+.div20 { grid-area: 5 / 4 / 6 / 5;}
+.div21 { grid-area: 6 / 1 / 7 / 2; }
+
+
+.FinalDesignHeader {
+	text-align:center;
+	font-family:san-seriff;
+}
+
+.FinalDesignImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*end of CSS for grid images and text */
+
+/*footer CSS style--peach colour background*/
+.contactMeFooter{
+	background-color:#ef9273;
+	color:black;
+	/*border:8px solid #ef9273;*/
+	font-family:san-serif;
+	/*margin-left:75px;*/
+    /*padding:10px;
+	width:325px;
+	height:200px;*/
+	position:static;
+	right:0;
+	left:0;
+	bottom:0;
+	/*padding:1rem;*/
+	margin-top:100px;
+	
+}
+
+.curvedArrow{
+	transform:translateY(65%);
+}
+.EButton {
+	background-color:#fef9f8;
+	color:#ef9273;
+	border:5px 5px 5px 5px #fef9f8;
+	border-color:#fef9f8;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 5px;
+	cursor:pointer;
+	margin-bottom:30px;
+}
+
+.PButton{
+	background-color:#fef9f8;
+	color:#ef9273;
+	border:5px 5px 5px 5px;
+	border-color:#fef9f8;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 5px;
+	cursor:pointer;
+	margin-bottom:30px;
+}
+
+.PButton:hover {
+	border: 5px 5px 5px 5px #ef9273;
+	border-radius:5px;
+	color:#fef9f8;
+	background-color:#ef9273;
+	cursor:pointer;
+}
+
+.EButton:hover {
+	border: 5px 5px 5px 5px #ef9273;
+	border-radius:5px;
+	color:#fef9f8;
+	background-color:#ef9273;
+	cursor:pointer;
+}
+.linkedIcon {
+   float:right;
+   width:40px;
+   height:40px;
+   margin-bottom:30px;
+   margin-right:75px;
+   background-color:#ef9273;
+ 
+}
+
+.GitHubIcon{
+	float:right;
+	width:40px;
+	height:40px;
+	margin-bottom:30px;
+	margin-right:10px;
+    background-color:#ef9273;
+}
+/*end of footer styling*/

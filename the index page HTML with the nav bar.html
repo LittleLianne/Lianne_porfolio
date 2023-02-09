@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Lianne O'Malley CV.</title>
+  
+  <link rel="stylesheet" type="text/css"  href="stylesheetCV.css"> 
+</head>
+  
+<body>
+
+ <nav class="topNavBar">
+    <a href="HomePage.html" class="homeLink">HOME</a>
+    <a href="#" class="aboutMeLink">ABOUT ME</a>
+    <a href="#" class="theLetterL">&#9733;</a>
+    <a href="WorkHomePage.html" class="workLink">WORK</a>
+    <a href="CvPage.html" class ="cvLink">CV</a>
+
+    <button id="myBtn">CONTACT</button>
+
+    <div id="theForm" class="form">
+    <div class="insideTheForm">
+       <header class="formHeader">
+	   <span class="close">CLOSE</span>
+	   </header>
+	
+          <h3> Hi, want to contact me? </h3>
+
+  <hr></hr>
+	<a href="tel:+447535271760" class="phone"> <img src="Images\phoneImage.png"style="width:25px;height:25px; alt="phone picture">Phone Me</a>
+	<!-- Even above or should just place number-->
+     <br>
+	 <br>
+   <a href="mailto:liannemarie2004@hotmail.com" class="mailto"> <img src="Images\emailMe.jpg" style="width:25px;height:25px; alt="email me icon">Email me </a>
+   <h3> Barnsley, UK </h3>
+   <br>
+   </nav>
+</div>
+</div>
+  <!-- end of the contact me code -->
+ <br>
+ <br>
+ <br>
+ <br>
+ 
+ <form>
+ <input type="button" value="&#129064;" onclick="history.back()" class="goBackButton"></input>
+</form>
+
+<button onclick="topFunction()" id="topBtn" title="go to the top"><big><big>&#129049;</big></big></button>
+
+
+
+
+
+<script>
+
+var modal = document.getElementById("theForm");
+
+// Get the button that opens the form
+var btn = document.getElementById("myBtn");
+
+// uses the <span> to close the form
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
