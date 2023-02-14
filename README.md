@@ -10,11 +10,9 @@ My porfolio.
 <body>
 
 <nav class="topNavBar">
-   <!-- replace # with pages once created.-->
     <a href="HomePage.html" class="homeLink">HOME</a>
     <a href="C:\Users\liann\Desktop\Pratice CV 2\aboutMePage.html" class="aboutMeLink">ABOUT ME</a>
     <a href="#" class="theLetterL">&#9733;</a>
- <!-- style the L with different font once decided what fonts i'm using, what to link it to? maybe link to any other link or so brings up a picture or something?-->
     <a href="WorkHomePage.html" class="workLink">WORK</a>
     <a href="CvPage.html" class ="cvLink">CV</a>
   <!-- work is previous work link-->
@@ -58,7 +56,7 @@ My porfolio.
 </div>
 
 <div class="homeScreenPage2">
-  <img src="C:\Users\liann\Desktop\Pratice CV 2\Images\photoOfMe2.gif" alt="photoOfMe" class="photoOfMe"></img>
+  <img src="Images\photoOfMe2.gif" alt="photoOfMe" class="photoOfMe"></img>
   <pre class="aboutMeText">
 
  <!--dont remove the whitespacing before the text and after-->
@@ -73,7 +71,7 @@ My porfolio.
   love to speak with users to understand and fulfil 
   their needs, using their insights to create a design 
   that has a high degree of both usability and desirability.
-  <a href="#" class="LinkMore"> Want to know more about me click here :)</a>
+  <a href="aboutMePage" class="LinkMore"> Want to know more about me click here :)</a>
   </pre>
 
 </div>
@@ -105,20 +103,15 @@ My porfolio.
   <a href="C:\Users\liann\Desktop\Pratice CV 2\AppPage.html"><img src="Images/InterFaceSketchesOfApp.jpg" alt="interface sketch" class="interfacePic"></a>
   <a href="C:\Users\liann\Desktop\Pratice CV 2\SmartPlate.html"><img src="C:\Users\liann\Desktop\Pratice CV 2\Images\smartPlateImage.jpg" alt="Smart Plate" class="SmartPlate"></a>
   <a href="C:\Users\liann\Desktop\Pratice CV 2\CyprusPage.html"><img src="C:\Users\liann\Desktop\Pratice CV 2\Images\CyrpusImage.jpg" class="HeuristicEvualuation" alt="Heuristic Evualuation"></a>
-  <a href="C:\Users\liann\Desktop\Pratice CV 2\WebsiteDesign.html"><img src="C:\Users\liann\Desktop\Pratice CV 2\Images\clubIt.jpg" class="WebsiteDesign" alt="website design"></a>
+  <a href="WebsiteDesign.html"><img src="Images\clubIt.jpg" class="WebsiteDesign" alt="website design"></a>
 </div>
 
  
  <div class="textUnderWorkPic">
-   <a href="C:\Users\liann\Desktop\Pratice CV 2\AppPage.html"><p class="text1"> App Project.</p></a>
-   <a href="C:\Users\liann\Desktop\Pratice CV 2\SmartPlate.html"><p class="text2">Smart Plate Project.</p></a>
-   <a href="C:\Users\liann\Desktop\Pratice CV 2\CyprusPage.html"><p class="text3">Heuristic Evaluation.</p></a>
-   <a href="C:\Users\liann\Desktop\Pratice CV 2\WebsiteDesign.html"><p class="text4">WebsiteDesign</p></a>
-</div>
-
-<!--Should i have CV section on homepage or not?-->
-<div class="cvSection">
-
+   <a href="AppPage.html"><p class="text1"> App Project.</p></a>
+   <a href="SmartPlate.html"><p class="text2">Smart Plate Project.</p></a>
+   <a href="CyprusPage.html"><p class="text3">Heuristic Evaluation.</p></a>
+   <a href="WebsiteDesign.html"><p class="text4">WebsiteDesign</p></a>
 </div>
 
 <footer>
