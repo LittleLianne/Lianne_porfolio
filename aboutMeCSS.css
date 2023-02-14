@@ -266,3 +266,102 @@ h3 {
   margin-left: 75px;
   margin-right:75px;
 }
+
+.four  {
+  font-family:san-seriff;
+  margin-left: 75px;
+  margin-right:75px;
+}
+
+.cakeImages {
+ margin-left:350px;
+ margin-right:100px;
+}
+
+.cakesImages2 {
+  margin-left:350px;
+  margin-right:100px;
+}
+
+/*end of to the top CSS design*/
+
+/*footer CSS style--peach colour background*/
+.contactMeFooter{
+	background-color:#ef9273;
+	color:black;
+	/*border:8px solid #ef9273;*/
+	font-family:san-serif;
+	/*margin-left:75px;*/
+    /*padding:10px;
+	width:325px;
+	height:200px;*/
+	position:static;
+	right:0;
+	left:0;
+	bottom:0;
+	/*padding:1rem;*/
+	margin-top:100px;
+	
+}
+
+.curvedArrow{
+	transform:translateY(65%);
+}
+.EButton {
+	background-color:#fef9f8;
+	color:#ef9273;
+	border:5px 5px 5px 5px #fef9f8;
+	border-color:#fef9f8;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 5px;
+	cursor:pointer;
+	margin-bottom:30px;
+}
+
+.PButton{
+	background-color:#fef9f8;
+	color:#ef9273;
+	border:5px 5px 5px 5px;
+	border-color:#fef9f8;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 5px;
+	cursor:pointer;
+	margin-bottom:30px;
+}
+
+.PButton:hover {
+	border: 5px 5px 5px 5px #ef9273;
+	border-radius:5px;
+	color:#fef9f8;
+	background-color:#ef9273;
+	cursor:pointer;
+}
+
+.EButton:hover {
+	border: 5px 5px 5px 5px #ef9273;
+	border-radius:5px;
+	color:#fef9f8;
+	background-color:#ef9273;
+	cursor:pointer;
+}
+.linkedIcon {
+   float:right;
+   width:40px;
+   height:40px;
+   margin-bottom:30px;
+   margin-right:75px;
+   background-color:#ef9273;
+ 
+}
+
+.GitHubIcon{
+	float:right;
+	width:40px;
+	height:40px;
+	margin-bottom:30px;
+	margin-right:10px;
+    background-color:#ef9273;
+}
+/*end of footer styling*/
