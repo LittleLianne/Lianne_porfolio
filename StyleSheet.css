@@ -6,6 +6,11 @@
 	
 }
 
+@media only and screen and (min-width:321px) and (max-width){
+    .topNavBar{
+        width:100px;
+    }
+}
  
  /*needs not to have that little white border at top, remember to check code on other CSS page.*/
  /* maybe light peach colour as border bottom like a line */
