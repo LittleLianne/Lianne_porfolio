@@ -13,7 +13,7 @@
 	background-color:#ef9273;
 	border-radius:5px;
 	color:white;
-	max-width:100vw;
+	min-width:320px;
 	height:40px;
 	border:none;
 	text-decoration:none;
