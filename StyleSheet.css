@@ -215,9 +215,11 @@ h3 {
 }
 
 @media  screen and(max-width:1920px) {
-    .homeScreenPage2, .photoOfMe
+    .homeScreenPage2, .photoOfMe {
      width:320px;
 }
+}
+
 
 .aboutMeText{
 	background-color:#ef9273;
