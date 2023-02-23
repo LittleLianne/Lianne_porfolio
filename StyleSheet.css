@@ -6,11 +6,11 @@
 	
 }
 
-@mediascreen and (min-width:321px) and (max-width:1440px){
-    .topNavBar{
-        width:100px;
+@media (min-width:320px)(max-width:1281px) {
+    body
     }
-}
+
+
  
  /*needs not to have that little white border at top, remember to check code on other CSS page.*/
  /* maybe light peach colour as border bottom like a line */
