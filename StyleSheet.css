@@ -7,9 +7,7 @@
 }
 
 @media (min-width:320px)(max-width:1281px) {
-    body
-    }
-
+    body { }
 
  
  /*needs not to have that little white border at top, remember to check code on other CSS page.*/
@@ -27,7 +25,6 @@
 	/**background-attachment: fixed; **/
 	position:fixed;
 	/*position:relative;*/
-
 }
  
 .homeLink {
@@ -670,3 +667,5 @@ h3 {
 }
 
 /*end of footer CSS code.*/
+
+
