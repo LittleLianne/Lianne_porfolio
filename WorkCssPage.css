@@ -3,7 +3,6 @@ body {
    background-color:#fef9f8;
 }
 
-
 .topNavBar {
 	background-color:#ef9273;
 	border-radius:5px;
@@ -33,7 +32,7 @@ body {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  
+  font-style:bold;
 }
 
 .cvLink {
@@ -48,6 +47,7 @@ body {
   margin-right:30px;
   flex-direction:column;
   justify-content:center;
+  font-style:bold;
 }
 
 .theLetterL {
@@ -77,20 +77,80 @@ body {
   flex-direction:column;
   justify-content:center;
   font-style:bold;
+  padding:16px;
+  
 }
 
 .workLink {
-  color:white;
+    color:white;
+    background-color:#ef9273;
+    display:inline-block;
+    text-decoration:none;
+    display:flex;
+    margin-top:11px;
+    margin-right:30px;
+    flex-direction:column;
+    justify-content:center;
+    cursor:pointer;
+	font-style:bold;
+}
+
+.dropDownWork {
+  position:relative;
+  display:inline-block;
   background-color:#ef9273;
-  /*font-family:*/
-  /*margin-left:20px;*/	
-  display: inline-block;
-  text-decoration:none;
-  display:flex;
-  margin-top:2px;
-  margin-right:30px;
-  flex-direction:column;
-  justify-content:center;
+  /*color:white;
+    background-color:#ef9273;
+    display:inline-block;
+    text-decoration:none;
+    display:flex;
+    margin-top:2px;
+    margin-right:30px;
+    flex-direction:column;
+    justify-content:center;
+    cursor:pointer;
+    text-decoration:none; */
+
+}
+
+
+
+.dropDownContent{
+    display:none;
+    position:absolute;
+    background-color:#ef9273;
+    color:#fef9f8;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration:none;
+
+}
+
+.dropDownContent a {
+    color:#ef9273;
+    background-color:#fef9f8;
+    text-decoration:none;
+    display:block;
+
+}
+
+.dropDownContent a:hover {
+    background-color:#ef9273;
+    color:#fef9f8;
+
+}
+
+
+.dropDownWork:hover .dropDownContent  {
+    display:block;
+}
+
+
+
+.dropDownWork:hover .workLink {
+    background-color:#ef9273;
+	color:#fef9f8;
 }
 /* Code below for contact button*/
 /*pop-up form CSS code */
