@@ -4,8 +4,6 @@
   
   <link rel="stylesheet" type="text/css"  href="https://LittleLianne.github.io/StyleSheet.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="HandheldFriendly" content="true">
-   <!-- <script src="JavaScriptProflio.js"> </script> -->
   <meta charset="utf-8">
 
   <!-- Google tag (gtag.js) -->
@@ -23,26 +21,28 @@
 <body>
 
 
-  <nav class="topNavBar">
-    <!-- replace # with pages once created.-->
+  <div class="topNavBar" id="myTopnav">
+  
      <a href="https://LittleLianne.github.io/index.html" class="homeLink">HOME</a>
      <a href="https://LittleLianne.github.io/aboutMePage.html" class="aboutMeLink">ABOUT ME</a>
      <a href="#" class="theLetterL">&#9733;</a>
-  <div class="dropDownWork">
      <a href="WorkHomePage.html" class="workLink">WORK</a>
-   <div class="dropDownContent">
       <a href="https://LittleLianne.github.io/AppPage.html">App Project</a>
       <a href="https://LittleLianne.github.io/SmartPlate.html">Smart Plate</a>
       <a href="https://LittleLianne.github.io/CyprusPage.html">Heuristic Evalution</a>
       <a href="https://LittleLianne.github.io/WebsiteDesign.html">Website Design</a>
+      <a href="CvPage.html" class ="cvLink">CV</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
  </div>
- </div>
-     <a href="CvPage.html" class ="cvLink">CV</a>
+     
 
 
 <!-- Start of the Contact code -->
 <!-- open the form button-->
-    <button id="myBtn">CONTACT</button>
+    <button id="myBtn">CONTACT ME :)</button>
 
     <div id="theForm" class="form">
     <div class="insideTheForm">
@@ -161,34 +161,50 @@
 
 <!-- end of footer-->
 
-
+<!--script for nav bar-->
 <script>
 
-var modal = document.getElementById("theForm");
-
-// Get the button that opens the form
-var btn = document.getElementById("myBtn");
-
-// uses the <span> to close the form
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  
+  </script>
+  <!--end of script for nav bar-->
+  
+  <!-- script for contact me form-->
+  <script>
+  var modal = document.getElementById("theForm");
+  
+  // Get the button that opens the form
+  var btn = document.getElementById("myBtn");
+  
+  // uses the <span> to close the form
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
     modal.style.display = "none";
   }
-}
-</script>
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
+  </script>
+  <!-- end of script for contact me form-->
 
 <!-- script for to the top button-->
 <script>
