@@ -161,28 +161,6 @@ h3 {
 
 /* end of CSS pop up form code */
 
-/*back button*/
-.goBackButton {
-	background-color:#ef9273;
-	color:#fef9f8;
-	border:5px 5px 5px 5px #ef9273;
-	border-color:#fef9f8;
-	text-decoration:none;
-	border-radius:5px;
-	padding:5px 5px;
-	cursor:pointer;
-	margin-left:75px;
-      font-size:large;
-}
-.goBackButton:hover {
-	border: 5px 5px 5px 5px #fef9f8;
-	border-radius:5px;
-	color:#ef9273;
-	background-color:#fef9f8;
-	cursor:pointer;
-      font-size:large;
-}
-/*end of back button CSS styling*/
 
 /*first page name design */
 .homeScreenTop1 {
