@@ -168,45 +168,68 @@ h3 {
     width: 100%;
 	height:auto;
 }
- /*about me css styling */ 
-
-.homeScreenPage2{
-	  background-color:#ef9273;
-	  color:black;
-	  width:100%;
-	  font-family:serif;
-	  
+ 
+/*about me css styling */
+.homeScreenPage2 {
+	background-color:#ef9273;
+	color:black;
+	font-family:serif;
+	display:flex;
+	flex-direction:row;
+	max-width:100%;
+    justify-content:flex-end;
+	column-gap:1em;
 }
 
-
-.aboutMeText{
+.aboutMeText {
 	background-color:#ef9273;
 	margin-left:75px;
 	font-family:serif;
 	font-weight:bold;
+	display:flex;
+	flex:50%;
+	flex-direction:row;
+	width:300px;
+	height:300px;
+	margin-top: 25px;
+	column-gap:1em;
+	/*margin-right:150px;*/
 
 }
 
-.LinkMore {
-	background-color:#ef9273;
-	text-decoration:none;
-	color:black;
-}
 
 .photoOfMe {
 	float:right;
-	margin-right:75px;
+	/*margin-right:75px;*/
 	/*border-radius:20px;*/
 	height:200px;
 	width:200px;
-	display: block;
+	/*display: flex;*/
     margin-left: auto;
     margin-top: 25px;
 	background-color:#ef9273;
-	background-size:100%
+	background-size:100%;
+	/*flex:50%;*/
+	margin-right:75px;
+	display:flex;
+	flex:50%;
+	align-items:right;
+	flex-direction:row;
 }
-/*end of about me CSS styling*/
 
+
+@media screen and(min-width:320px) and (max-width:500px) {
+	 .photoOfMe ,.aboutMeText{
+		flex-direction:column;
+		display:flex;
+		/*position:relative;
+		width:100%;
+		padding:0;
+		bottom:0;*/
+	}
+}
+
+/*end of about me CSS styling*/
 
 /*Skills CSS*/
 
