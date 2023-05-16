@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-  <title>About Lianne.</title>
+  <title>About Me.</title>
   
   <link rel="stylesheet" type="text/css"  href="https://LittleLianne.github.io/aboutMeCSS.css"/> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,20 +21,17 @@
 <body>
 
 
-  <div class="topNavBar" id="myTopnav">
+  <div class="topnav" id="myTopnav">
     <a href="https://LittleLianne.github.io/index.html" class="active">HOME</a>
     <a href="https://LittleLianne.github.io/aboutMePage.html">ABOUT ME</a>
     <a href="#" class="theLetterL">&#9733;</a>
     <a href="WorkHomePage.html" class="workLink">WORK</a>
-    <a href="https://LittleLianne.github.io/AppPage.html">App Project</a>
-    <a href="https://LittleLianne.github.io/SmartPlate.html">Smart Plate</a>
-    <a href="https://LittleLianne.github.io/CyprusPage.html">Heuristic Evalution</a>
-    <a href="https://LittleLianne.github.io/WebsiteDesign.html">Website Design</a>
     <a href="CvPage.html">CV</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
        <i class="fa fa-bars"></i>
      </a>
    </div>
+    
 
 <!-- Start of the Contact code -->
 <!-- open the form button-->
@@ -126,7 +123,7 @@ I have a good understanding of design principles, I have undertaken evaluations 
 </footer>
 
 <!-- end of footer-->
-
+<!--script for nav bar-->
 <script>
 
   function myFunction() {
@@ -140,34 +137,36 @@ I have a good understanding of design principles, I have undertaken evaluations 
   
   </script>
   <!--end of script for nav bar-->
-
-<script>
-
-var modal = document.getElementById("theForm");
-
-// Get the button that opens the form
-var btn = document.getElementById("myBtn");
-
-// uses the <span> to close the form
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
+  
+  <!-- script for contact me form-->
+  <script>
+  var modal = document.getElementById("theForm");
+  
+  // Get the button that opens the form
+  var btn = document.getElementById("myBtn");
+  
+  // uses the <span> to close the form
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
     modal.style.display = "none";
   }
-}
-</script>
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
+  </script>
+  <!-- end of script for contact me form-->
 
 <!-- script for to the top button-->
 <script>
@@ -190,7 +189,6 @@ function topFunction() {
 }
 </script>
 <!-- end of the script for to the top button-->
-<!--script for nav bar-->
 
 
 
