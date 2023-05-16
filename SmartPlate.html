@@ -5,7 +5,7 @@
   
   <link rel="stylesheet" type="text/css"  href="https://LittleLianne.github.io/SmartPlateStyleSheet.css"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8">
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V8X10QKHE"></script>
@@ -21,21 +21,17 @@
   
 <body>
    
-  <nav class="topNavBar">
-    <!-- replace # with pages once created.-->
-     <a href="https://LittleLianne.github.io/index.html" class="homeLink">HOME</a>
-     <a href="https://LittleLianne.github.io/aboutMePage.html" class="aboutMeLink">ABOUT ME</a>
-     <a href="#" class="theLetterL">&#9733;</a>
-  <div class="dropDownWork">
-     <a href="WorkHomePage.html" class="workLink">WORK</a>
-   <div class="dropDownContent">
-      <a href="https://LittleLianne.github.io/AppPage.html">App Project</a>
-      <a href="https://LittleLianne.github.io/SmartPlate.html">Smart Plate</a>
-      <a href="https://LittleLianne.github.io/CyprusPage.html">Heuristic Evalution</a>
-      <a href="https://LittleLianne.github.io/WebsiteDesign.html">Website Design</a>
-  </div>
-  </div>
-     <a href="CvPage.html" class ="cvLink">CV</a>
+  
+  <div class="topnav" id="myTopnav">
+    <a href="https://LittleLianne.github.io/index.html" class="active">HOME</a>
+    <a href="https://LittleLianne.github.io/aboutMePage.html">ABOUT ME</a>
+    <a href="#" class="theLetterL">&#9733;</a>
+    <a href="WorkHomePage.html" class="workLink">WORK</a>
+    <a href="CvPage.html">CV</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+       <i class="fa fa-bars"></i>
+     </a>
+   </div>
 
 <!-- Start of the Contact code -->
 <!-- open the form button-->
@@ -54,7 +50,7 @@
 	<!-- Even above or should just place number-->
      <br>
 	 <br>
-   <a href="mailto:liannemarie2004@hotmail.com" class="mailto"> <img src="https://LittleLianne.github.io/emailMe.jpg" style="width:25px;height:25px; alt="email me icon">Email me </a>
+   <a href="mailto:liannemarie2004@hotmail.com" class="mailto"> <img src="https://LittleLianne.github.io/emailMe.jpg" style="width:25px;height:25px;" alt="email me icon">Email me </a>
    <!-- If user click on the email and send me message then goes back on the website i need a thank you box as the contact pop up box stay on -->
    <!--<label for="emailMe">Email Me </label>-->
    <!--<input type="text" id="emailMe"/>-->
@@ -74,7 +70,7 @@
 
 <button onclick="topFunction()" id="topBtn" title="go to the top"><big><big>&#129049;</big></big></button>
 
-<h3 style="margin-left:75px;">Smart Plate Project.</h3>
+<h3 style="margin-left:75px">Smart Plate Project.</h3>
 
 <!-- add small paragraph/header here about the smartplate -->
 
@@ -174,33 +170,50 @@ what was gained from it -->
 
 <!-- end of footer-->
 
+<!--script for nav bar-->
 <script>
 
-var modal = document.getElementById("theForm");
-
-// Get the button that opens the form
-var btn = document.getElementById("myBtn");
-
-// uses the <span> to close the form
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  
+  </script>
+  <!--end of script for nav bar-->
+  
+  <!-- script for contact me form-->
+  <script>
+  var modal = document.getElementById("theForm");
+  
+  // Get the button that opens the form
+  var btn = document.getElementById("myBtn");
+  
+  // uses the <span> to close the form
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
     modal.style.display = "none";
   }
-}
-</script>
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
+  </script>
+  <!-- end of script for contact me form-->
 
 <!-- script for to the top button-->
 <script>
