@@ -258,7 +258,7 @@ h3 {
 	/*margin-left:75px;*/
 	display:flex;
 	margin-right:30px;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:center;
     display: inline-block;
 	text-align: center;
@@ -271,7 +271,7 @@ h3 {
 	width:100px;
 	display:flex;
 	margin-right:30px;
-    flex-direction:column;
+    flex-direction:row;
    justify-content:center;
    display: inline-block;
    text-align: center;
@@ -282,7 +282,7 @@ h3 {
     height:100px;
     display:flex;
     margin-right:30px;
-    flex-direction:column;
+    flex-direction:row;
    justify-content:center;
    display: inline-block;
    text-align: center;
@@ -293,7 +293,7 @@ h3 {
    height:100px;
    display:flex;
    margin-right:30px;
-   flex-direction:column;
+   flex-direction:row;
    justify-content:center;
    display: inline-block;
    text-align: center;
@@ -304,7 +304,7 @@ h3 {
    height:100px;
    display:flex;
    margin-right:30px;
-   flex-direction:column;
+   flex-direction:row;
    justify-content:center;
    display: inline-block;
    text-align: center;
@@ -315,7 +315,7 @@ h3 {
     height:100px;
     display:flex;
     margin-right:30px;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:center;
     display: inline-block;
 	text-align: center;
@@ -328,7 +328,7 @@ h3 {
    height:100px;
    display:flex;
    margin-right:30px;
-   flex-direction:column;
+   flex-direction:row;
    justify-content:center;
    display: inline-block;
    text-align: center;
@@ -339,10 +339,21 @@ h3 {
 	height:100px;
 	display:flex;
 	margin-right:30px;
-	flex-direction:column;
+	flex-direction:row;
 	justify-content:center;
 	display:inline-block;
 	text-align: center;
+}
+
+@media screen and(min-width:320px) and (max-width:500px) {
+	.Skills,.photoshopImage,.codeText,.prototypeImage,.Evaluations,.questionnaireImage,.endSkill,.Ux,.microsoftImage{
+		flex-direction:column;
+		display:flex;
+		/*position:relative;
+		width:100%;
+		padding:0;
+		bottom:0;*/
+	}
 }
 
 /*end of skills CSS code*/
