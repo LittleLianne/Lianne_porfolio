@@ -80,7 +80,7 @@ body
 	 font-family:AR CHRISTY;
      border-radius:5px;
     float:right;
-    position:fixed;
+   /* position:fixed;*/
 }
 
 .form {
